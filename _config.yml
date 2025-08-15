@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: NETHEADMKS.GITHUB.IO
+title: NETHEADMKS
 email: netheadmks@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -33,6 +33,7 @@ permalink: /p/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+date_format: "%Y-%m-%d"
 
 include:
   - _pages
@@ -59,16 +60,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "netheadmks"
+  name   : "MKS"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   email  : "netheadmks@icloud.com"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/netheadmks"
-
-footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
