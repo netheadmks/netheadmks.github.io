@@ -60,7 +60,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "netheadmks"
+  name   : "MKS"
   avatar : "/assets/images/avatar.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   email  : "netheadmks@icloud.com"
@@ -95,5 +95,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
 atom_feed:
   hide: true
