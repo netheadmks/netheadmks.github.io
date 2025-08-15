@@ -60,7 +60,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "MKS"
+  name   : "netheadmks"
   avatar : "/assets/images/avatar.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   email  : "netheadmks@icloud.com"
